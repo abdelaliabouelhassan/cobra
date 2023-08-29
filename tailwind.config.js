@@ -9,7 +9,18 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        epilogue: ['Epilogue'],
+        inter:['Inter']
+      },
+      colors:{
+        primary:'#5C26FF',
+      },
+      screens:{
+        '3xl':'2000px'
+      }
+    },
   },
   plugins: [],
 }
