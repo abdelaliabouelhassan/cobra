@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full 3xl:h-screen  flex justify-end  bg-[#EFF8F8]">
+    <div class=" w-full 3xl:h-[75vh] overflow-hidden  flex justify-end  bg-[#EFF8F8]">
        
          <div class=" h-full max-w-[87.438rem] 3xl:max-w-[119.063rem] w-full  pt-24 3xl:pt-56 relative ">
             <div class=" flex flex-col md:flex-row md:justify-between items-center   w-full ">
