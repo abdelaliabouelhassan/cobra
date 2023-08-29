@@ -3,7 +3,7 @@
        
          <div class=" h-full max-w-[87.438rem] 3xl:max-w-[119.063rem] w-full  pt-24 3xl:pt-56 relative ">
             <div class=" flex flex-col md:flex-row md:justify-between items-center   w-full ">
-                <div class=" w-full max-w-[38rem] relative pl-4 xl:3xl:pl-0">
+                <div class=" w-full max-w-[38rem] relative pl-4 pr-4 md:pr-0 xl:3xl:pl-0">
                     <p class="lg:text-[4rem] text-[2rem] z-10 relative font-medium font-epilogue lg:tracking-[-0.16rem] lg:leading-[5rem]">
                         Organize  <span class=" bg-black text-[#EFF8F8] rounded-2xl px-2 py-0.5 ">webinars</span>
                         for cobra CRM users in a blink.
