@@ -1,9 +1,9 @@
 <template>
-  <div class=" w-full p-4 space-y-4 absolute top-0 left-0">
+  <div class=" w-full p-4 space-y-4 absolute top-0 left-0 z-10">
     <div class="w-full flex justify-between items-center">
-      <div>
+      <router-link to="/">
         <img src="/images/logo.svg" alt="logo" />
-      </div>
+      </router-link>
 
       <div>
         <button
