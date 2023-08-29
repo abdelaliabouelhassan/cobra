@@ -32,6 +32,9 @@
                     <EventCard title="Do you have to manually update your cobra CRM to keep track of attendance?" />
                 </div>
                </div>
+               <div class=" w-full h-full absolute flex">
+                <img src="/images/home/firstsection/Vector.svg" class=" m-auto " alt="Vector">
+               </div>
            </div>
        </div>
     </div>
