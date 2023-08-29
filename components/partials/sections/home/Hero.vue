@@ -2,17 +2,17 @@
     <div class=" w-full 3xl:h-screen  flex justify-end  bg-[#EFF8F8]">
        
          <div class=" h-full max-w-[87.438rem] 3xl:max-w-[119.063rem] w-full  pt-24 3xl:pt-56 relative ">
-            <div class=" flex justify-between items-center   w-full ">
-                <div class=" w-full max-w-[38rem] relative">
-                    <p class="text-[4rem] z-10 relative font-medium font-epilogue tracking-[-0.16rem] leading-[5rem]">
+            <div class=" flex flex-col md:flex-row md:justify-between items-center   w-full ">
+                <div class=" w-full max-w-[38rem] relative pl-4 xl:3xl:pl-0">
+                    <p class="lg:text-[4rem] text-[2rem] z-10 relative font-medium font-epilogue lg:tracking-[-0.16rem] lg:leading-[5rem]">
                         Organize  <span class=" bg-black text-[#EFF8F8] rounded-2xl px-2 py-0.5 ">webinars</span>
                         for cobra CRM users in a blink.
                     </p>
                     <span class=" font-inter z-10 relative text-xl font-normal text-black">Book you 20 minutes demo and start planning events today.</span>
                     <div class=" w-full pt-5 z-10 relative">
-                        <div class=" w-full max-w-[33.875rem] flex bg-white rounded-3xl h-[6.5rem]">
-                            <div class=" m-auto flex items-center justify-between space-x-4 ">
-                                <button   class="text-white font-semibold text-[1rem] tracking-[0.02rem] px-8 rounded-lg py-3 bg-primary font-epilogue hover:bg-opacity-80 hover:text-gray-900 duration-200">
+                        <div class=" w-full max-w-[33.875rem] flex bg-white rounded-3xl lg:h-[6.5rem] py-2 px-4">
+                            <div class=" m-auto flex items-center justify-center flex-wrap  lg:flex-nowrap lg:justify-between space-x-4 ">
+                                <button   class="text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg py-2 lg:py-3 bg-primary font-epilogue hover:bg-opacity-80 hover:text-gray-900 duration-200">
                                     Book your Demo
                                 </button>
                                 <img src="/images/home/hero/software.svg" alt="software">
