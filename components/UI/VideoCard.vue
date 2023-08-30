@@ -1,7 +1,7 @@
 <template>
   <div class=" flex flex-col items-center space-y-2 w-full max-w-[11.5rem] cursor-pointer ">
     <span class=" text-black text-base font-semibold font-epilogue">{{title}}</span>
-      <div :class="{'bg-[#00D5C4]':completed,'card-shadow':!completed}" class=" bg-white w-full p-2  rounded-[1.1875rem] h-[6.875rem] flex">
+      <div :class="{'bg-[#00D5C4]':completed,'card-shadow bg-white':!completed}" class="  w-full p-2  rounded-[1.1875rem] h-[6.875rem] flex">
             <div class=" w-full h-full bg-gray-500 m-auto rounded-[0.75rem] overflow-hidden relative">
                 <img :src="placeholder" class=" object-cover w-full h-full" alt=""> 
                 <div class=" absolute w-full h-full flex top-0 left-0">
