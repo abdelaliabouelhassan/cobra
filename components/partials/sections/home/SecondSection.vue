@@ -1,7 +1,7 @@
 <template>
     <div class=" w-full max-w-[80.5rem] mx-auto py-5 md:py-20 px-4 space-y-28">
         <VideoPlayer 
-        placeholder="/images/home/secondsection/placeholder1.png"
+        placeholder="/images/home/secondsection/placeholder1.webp"
         video="http://media.w3.org/2010/05/sintel/trailer.mp4"
         title="Simplify work and host more events"
         subtitle="Watch this short video on how a Cobra works!"
@@ -75,21 +75,21 @@
     {
         logo:'/images/home/secondsection/company2.svg',
         text:'Zeitersparnis 1st ein groQer Vorteil bei der Verwendung von cobra Events, allerdings 1st das Wichtigste fur mich die Fehlervermeidung. Bei unseren Events hatten wir haufig verschiedene Excel Listen mit denen wir die Teilnehmer einluden. Diese Listen entstanden in verschiedenen Abteilungen unseres Unternehmens. Bei der Zusammenfuhrung gab es stets Fehler die dazu fuhrten, dass wichtige Personen nicht eingeladen wurden bezw. auch veraltete Anschriften verwendet wurden. Das 1st nun dank EventPro nun fur immer vorbei.',
-        image:'/images/home/secondsection/Joseph.svg',
+        image:'/images/home/secondsection/Joseph.webp',
         name:'Joseph Rodriguez',
         job:'CEO of Tuple'
     },
      {
         logo:'/images/home/secondsection/company3.svg',
         text:'Wir machen pro Jahr uber100 Veranstaltungen und dass uber unterschiedliche Firmen unserer Gruppe. EventPro ermoglicht uns die Nutzung verschiedener Homepages fur das Hochladen der einzelnen Veranstaltungen, dabei steuern wir unsere Events zentral und behalten stets den Uberblick uber die jeweilige Buchungssituation. Auch steuern wir das Stattfinden der Events Mindest Teilnehmerzahlen. Das hinterlegen wir pro Event und dann wird automatisch abgesagt, wenn diese nicht zum Zeitpunkt x erreicht wurde.',
-        image:'/images/home/secondsection/Judith1.svg',
+        image:'/images/home/secondsection/Judith1.webp',
         name:'Judith Black',
         job:'CEO of Tuple'
     },
      {
         logo:'/images/home/secondsection/company4.svg',
         text:'Als CRM System verwenden wir die Software-Losung cobra. Event 1st fur mich die ideale Erganzung zu unserem CRM. Die Anbindung 1st fehlerfrei und kinderleicht und unsere EventLosung EventPro 1st durch die Verbindung mit unserer langjahrig aufgebauten cobra Software- Installation direkt extrem leistungsfahig, denn alle potentiellen Einzuladenden haben wir ja bereits im CRM :_). Toll 1st auch die Ruckmeldung von EventPro direkt in unser CRM hinein. Das gibt uns maximale Transparenz und Ubersicht.',
-        image:'/images/home/secondsection/Joseph1.svg',
+        image:'/images/home/secondsection/Joseph1.webp',
         name:'Joseph Rodriguez',
         job:'CEO of Tuple'
     }

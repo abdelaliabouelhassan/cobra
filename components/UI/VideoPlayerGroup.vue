@@ -36,31 +36,31 @@
  const PlayList = ref([
     {
         title:'Plan',
-        placeholder:'/images/home/secondsection/placeholder2.png',
+        placeholder:'/images/home/secondsection/placeholder2.webp',
         completed:false,
         video:'http://media.w3.org/2010/05/sintel/trailer.mp4'
     },
     {
         title:'Publish',
-        placeholder:'/images/home/secondsection/placeholder1.png',
+        placeholder:'/images/home/secondsection/placeholder1.webp',
         completed:false,
         video:'http://media.w3.org/2010/05/sintel/trailer.mp4'
     },
     {
         title:'Sell',
-        placeholder:'/images/home/secondsection/placeholder3.png',
+        placeholder:'/images/home/secondsection/placeholder3.webp',
         completed:false,
         video:'http://media.w3.org/2010/05/sintel/trailer.mp4'
     },
     {
         title:'Perform',
-        placeholder:'/images/home/secondsection/placeholder4.png',
+        placeholder:'/images/home/secondsection/placeholder4.webp',
         completed:false,
         video:'http://media.w3.org/2010/05/sintel/trailer.mp4'
     },
     {
         title:'Follow up',
-        placeholder:'/images/home/secondsection/placeholder5.png',
+        placeholder:'/images/home/secondsection/placeholder5.webp',
         completed:false,
         video:'http://media.w3.org/2010/05/sintel/trailer.mp4'
     },

@@ -35,8 +35,8 @@
                      <div class=" absolute top-0 3xl:right-[50rem]">
                         <img src="/images/home/hero/Vector2.svg" alt="Vector">
                     </div>
-                        <img src="/images/home/hero/dashboard.png"  class=" z-10  3xl:block hidden w-[81.299rem] h-[46.324rem] absolute top-20 right-0  " alt="dashboard">
-                        <img src="/images/home/hero/dashboard-sm.png" class="z-10 relative 3xl:hidden w-full h-full" alt="dashboard-sm">
+                        <img src="/images/home/hero/dashboard.webp"  class=" z-10  3xl:block hidden w-[81.299rem] h-[46.324rem] absolute top-20 right-0  " alt="dashboard">
+                        <img src="/images/home/hero/dashboard-sm.webp" class="z-10 relative 3xl:hidden w-full h-full" alt="dashboard-sm">
                 </div>
             </div>
          </div>
