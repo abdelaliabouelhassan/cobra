@@ -15,7 +15,7 @@
                                 <button   class="text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg py-2 lg:py-3 bg-primary font-epilogue hover:bg-opacity-80 hover:text-gray-900 duration-200">
                                     Book your Demo
                                 </button>
-                                <img src="/images/home/hero/software.svg" alt="software">
+                                <img src="images/home/hero/software.svg" alt="software">
                                 <img src="/images/home/hero/dsvgo.svg" alt="dsvgo">
                                 <img src="/images/home/hero/service.svg" alt="service">
                             </div>
