@@ -1,5 +1,5 @@
 <template>
-    <div class=" relative w-full border border-dashed  max-w-[23.4375rem] border-[#CECECE] rounded-[2rem] pt-5 pb-28 px-8">
+    <div class=" relative w-full border border-dashed  max-w-[23.4375rem] border-bgray rounded-[2rem] pt-5 pb-28 px-8">
         <div class=" w-full space-y-8">
             <img :src="logo" alt="" class=" object-cover">
         <p class=" text-black font-inter text-base font-normal">
@@ -13,7 +13,7 @@
             </div>
             <div class=" flex flex-col items-start -space-y-px">
                 <span class=" text-black font-epilogue font-medium text-lg">{{name}}</span>
-                <span class=" text-[#8F8F8F] font-inter text-sm font-normal" >{{job}}</span>
+                <span class=" text-tgray font-inter text-sm font-normal" >{{job}}</span>
             </div>
         </div>
     </div>

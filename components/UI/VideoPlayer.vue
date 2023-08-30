@@ -1,5 +1,5 @@
 <template>
-    <div :class="{'bg-[#EFF8F8]':!dashbed}" class=" w-full  p-5 rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[7rem] overflow-hidden">
+    <div :class="{'bg-tertiary':!dashbed}" class=" w-full  p-5 rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[7rem] overflow-hidden">
         <div v-if="!play" class="  w-full h-[25rem] md:h-auto   xl:h-[42.4375rem] rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[7rem] relative overflow-hidden  ">
             <img :src="placeholder" class=" w-full h-full object-cover" alt="placeholder">
             <div  class=" absolute w-full h-full  top-0 left-0 p-8">

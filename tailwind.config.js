@@ -16,6 +16,10 @@ module.exports = {
       },
       colors:{
         primary:'#5C26FF',
+        secondry:'#00D5C4',
+        tertiary:'#EFF8F8',
+        bgray:'#CECECE',
+        tgray:'#8F8F8F'
       },
       screens:{
         '3xl':'2000px'

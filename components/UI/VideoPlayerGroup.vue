@@ -1,6 +1,6 @@
 <template>
     <div class=" w-full" v-if="selectedItem">
-        <div class=" w-full border border-dashed pb-8 border-[#CECECE] rounded-[3.5rem]">
+        <div class=" w-full border border-dashed pb-8 border-bgray rounded-[3.5rem]">
             <VideoPlayer :dashbed="true"
                           :title="selectedItem.title"
                           :placeholder="selectedItem.placeholder"
