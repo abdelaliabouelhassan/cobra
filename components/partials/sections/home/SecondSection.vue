@@ -9,7 +9,7 @@
         />
 
         <div class=" w-full text-black font-semibold text-5xl font-epilogue text-center space-y-16">
-            <h1>Throughout the entire event process <br> - full support for you!</h1>
+            <h1 class=" text-2xl md:text-5xl text-black text-center font-semibold font-epilogue">Throughout the entire event process <br> - full support for you!</h1>
 
             <VideoPlayerGroup>
                 <div class=" w-full pt-8 px-4 space-y-14 ">
