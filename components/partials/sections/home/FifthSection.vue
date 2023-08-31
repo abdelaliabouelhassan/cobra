@@ -15,7 +15,7 @@
             </div>
 
             <div class=" mx-auto md:w-full grid px-4 lg:px-0 grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 relative pt-28">
-                <div class="  bg-white card-shadow rounded-3xl w-[13rem] h-[13.125rem] flex relative z-10">
+                <div class="  bg-white card-shadow rounded-3xl w-[13rem] pb-5 h-[13.125rem] flex relative z-10">
                     <div class=" m-auto flex flex-col items-center space-y-4">
                         <div>
                            <img src="/images/home/fifthsection/api.png" alt="api">
@@ -23,7 +23,7 @@
                         <span class=" font-epilogue text-lg font-medium text-black text-center">Api</span>
                     </div>
                 </div>
-                 <div class="  bg-white card-shadow rounded-3xl w-[13rem] h-[13.125rem] flex relative z-10">
+                 <div class="  bg-white card-shadow rounded-3xl w-[13rem] pb-5 h-[13.125rem] flex relative z-10">
                     <div class=" m-auto flex flex-col items-center space-y-4">
                         <div>
                              <img src="/images/home/fifthsection/webhook.png" alt="webhook">
@@ -39,7 +39,7 @@
                         <span class=" font-epilogue text-lg font-medium text-black text-center">Website <br> configurator</span>
                     </div>
                 </div>
-                 <div class="  bg-white card-shadow rounded-3xl w-[13rem] h-[13.125rem] flex relative z-10">
+                 <div class="  bg-white card-shadow rounded-3xl w-[13rem] pb-5 h-[13.125rem] flex relative z-10">
                     <div class=" m-auto flex flex-col items-center space-y-4">
                         <div>
                            <img src="/images/home/fifthsection/css.png" alt="css">
