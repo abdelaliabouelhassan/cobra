@@ -31,7 +31,7 @@
                                 </defs>
                                 </svg>
                             </div>
-                            <img src="/images/home/secondsection/ppl.png" class=" z-10 relative w-full h-full object-cover" alt="ppl">
+                            <img src="/images/home/secondsection/ppl.webp" class=" z-10 relative w-full h-full object-cover" alt="ppl">
                         </div>
 
                         <div class=" w-full max-w-[35rem] flex flex-col items-start space-y-4">

@@ -12,7 +12,7 @@
                                     Book your Demo
                      </button>
                 </div>
-                <img src="/images/home/sixthsection/tst.png" class=" 2xl:max-w-max lg:max-w-[40rem] w-full h-full sm:w-auto object-cover sm:h-auto md:max-w-[30rem] xl:max-w-[45rem]" alt="dashboard">
+                <img src="/images/home/sixthsection/tst.webp" class=" 2xl:max-w-max lg:max-w-[40rem] w-full h-full sm:w-auto object-cover sm:h-auto md:max-w-[30rem] xl:max-w-[45rem]" alt="dashboard">
             </div>
 
 

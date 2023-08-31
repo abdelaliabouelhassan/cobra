@@ -3,7 +3,7 @@
         <div class=" flex flex-col items-center space-y-8 max-w-[1208px] mx-auto">
             <div class="  w-full px-4 lg:px-0 max-w-[1132px]  mx-auto flex  md:flex-row flex-col items-center space-y-10 md:space-y-0 md:space-x-28 relative z-10">
                 <div class=" w-full max-w-[27.25rem] max-h-[27.25rem] h-full">
-                     <img src="/images/home/fifthsection/extebsiveapi.png" class=" w-full h-full object-cover" alt="extebsiveapi">
+                     <img src="/images/home/fifthsection/extebsiveapi.webp" class=" w-full h-full object-cover" alt="extebsiveapi">
                 </div>
                 <div class=" w-full flex flex-col items-start max-w-[36.5rem] space-y-8 ]">
                     <h1 class=" text-black text-[2.45rem] md:text-[4rem] font-epilogue font-medium leading-[3rem] md:leading-[5rem]">Extensive API and integrations</h1>
