@@ -28,7 +28,7 @@
 
                 <div class=" w-full space-y-10 relative z-10">
                     <div class=" w-full bg-white rounded-3xl flex flex-col items-center md:flex-row md:items-end md:space-x-10 relative overflow-hidden md:h-[281px] py-4 md:py-0">
-                        <img src="/images/home/thirdsection/development.png"  alt="">
+                        <img src="/images/home/thirdsection/development.png" class=" object-cover md:scale-110"  alt="">
                         <div class=" flex flex-col items-start space-y-1 pb-5 pt-4 md:pt-0">
                             <span class=" text-black font-semibold font-epilogue text-3xl">Development</span>
                             <span class=" text-black font-epilogue text-lg font-medium">made in Germany</span>
