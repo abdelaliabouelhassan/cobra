@@ -7,7 +7,7 @@
 
       <div>
         <button
-          class="text-white font-medium text-sm tracking-[0.0175rem] px-6 rounded-lg py-1.5 bg-primary font-epilogue hover:bg-opacity-80 hover:text-gray-900 duration-200"
+          class="text-white font-medium text-sm tracking-[0.0175rem] px-6 rounded-lg py-1.5 bg-primary font-epilogue hover:bg-blue-400 hover:text-white duration-200"
         >
           Book your Demo
         </button>

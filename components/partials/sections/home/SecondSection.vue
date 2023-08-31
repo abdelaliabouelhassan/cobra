@@ -37,7 +37,7 @@
                         <div class=" w-full max-w-[35rem] flex flex-col items-start space-y-4">
                             <p class=" font-epilogue text-lg font-medium text-black text-start">Book an appointment - often possible already 2 hours after booking. We give you an introduction, afterwards you can test for 10 days free of charge.</p>
                              <button
-                            class="text-white font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg py-3 bg-primary font-epilogue hover:bg-opacity-80 hover:text-gray-900 duration-200"
+                            class="text-white font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg py-3 bg-primary font-epilogue hover:bg-blue-400 hover:text-white duration-200"
                             >
                             Book your Demo
                             </button>

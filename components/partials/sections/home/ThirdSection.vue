@@ -1,8 +1,8 @@
 <template>
-    <div class=" w-full py-20">
+    <div class=" w-full pt-20 overflow-hidden">
         <div class=" w-full bg-tertiary py-40 ">
         <div class=" relative w-full px-4 max-w-[1208px] mx-auto flex flex-col items-center space-y-14 ">
-            <h1 class=" text-black font-epilogue text-5xl font-semibold text-center">The modern event solution <br> made in Germany</h1>
+            <h1 class=" text-black font-epilogue text-2xl md:text-5xl font-semibold text-center">The modern event solution <br> made in Germany</h1>
             <div class=" w-full grid xl:grid-cols-2 gap-10 relative">
                 <div class=" w-full bg-white rounded-3xl  px-4 xl:pt-20 xl:pb-10 pb-5 pt-10 relative z-10">
                     <div class=" flex flex-col items-center space-y-5 xl:space-y-16">

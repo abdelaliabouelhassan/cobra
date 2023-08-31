@@ -19,7 +19,8 @@ module.exports = {
         secondry:'#00D5C4',
         tertiary:'#EFF8F8',
         bgray:'#CECECE',
-        tgray:'#8F8F8F'
+        tgray:'#8F8F8F',
+        background:'#FCFCFC'
       },
       screens:{
         '3xl':'2000px'
