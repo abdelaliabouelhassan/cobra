@@ -4,7 +4,7 @@
             <img :src="placeholder" class=" w-full h-full object-cover" alt="placeholder">
             <div  class=" absolute w-full h-full  top-0 left-0 p-8">
                 <h2 class=" max-w-[20rem] md:max-w-[29.75rem] text-white text-[2rem] lg:text-[4rem] font-epilogue font-medium lg:leading-[5rem] text-start">{{title}}</h2>
-                <div class=" flex items-center space-x-5 absolute bottom-10 ">
+                <div class=" flex sm:flex-row flex-col sm:items-center  space-y-2 sm:space-y-0 sm:space-x-5 absolute bottom-10 ">
                             <PlayButton @click="play = true;" class="w-[7.5rem] h-[7.5rem]"  />
                             <p class=" text-xs md:text-base lg:text-lg text-white font-epilogue font-medium max-w-[12.8125rem]">
                                {{subtitle}}
