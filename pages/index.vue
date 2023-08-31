@@ -25,4 +25,9 @@
  import SiventhSection from "@/components/partials/sections/home/SiventhSection.vue"
  import EighthSection from "@/components/partials/sections/home/EighthSection.vue"
 
+
+useSeoMeta({
+    title: "COBRA - title placeholder",
+    description: "add description here...",
+})
 </script>

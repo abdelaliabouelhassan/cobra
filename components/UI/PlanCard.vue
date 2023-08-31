@@ -7,7 +7,7 @@
                 <img src="/images/home/eighthsection/popular.png" alt="">
             </div>
             <h1 class=" text-black font-epilogue text-3xl font-semibold">{{item.title}}</h1>
-            <p class=" text-grayscale text-center text-base font-inter font-normal max-w-[18.5rem] border-b border-dashed border-bgray " :class="{'pb-6':index == 0,'pb-5':index == 1 , 'pb-12':index == 2}">
+            <p class=" text-grayscale text-center text-base font-inter font-normal max-w-[18.5rem] border-b border-dashed border-bgray " :class="{'pb-6':index == 0,'pb-5':index == 1 , 'pb-16':index == 2}">
                {{item.description}} 
             </p>
         </div>

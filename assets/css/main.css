@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.collapsable .collapsable-content {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .collapsable .collapse-btn{
+    cursor: pointer;
+  }
+  
+  .collapsable.expanded .collapsable-content {
+  height: auto;
+  transition: height 0.3s ease-in-out;
+  }
+  
+  .collapsable .collapse-btn-chevron {
+  transition: all 0.2s ease;
+  }
