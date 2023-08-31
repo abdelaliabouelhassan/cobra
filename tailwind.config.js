@@ -20,7 +20,8 @@ module.exports = {
         tertiary:'#EFF8F8',
         bgray:'#CECECE',
         tgray:'#8F8F8F',
-        background:'#FCFCFC'
+        background:'#FCFCFC',
+        grayscale:'#646464'
       },
       screens:{
         '3xl':'2000px'
