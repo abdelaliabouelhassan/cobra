@@ -10,7 +10,7 @@
                     <p class=" font-epilogue text-black font-medium text-base md:text-lg">
                         Cobra Event is developed completely API-first. This gives developers unlimited possibilities: integrate the software, retrieve events for websites for websites, connect mobile apps...
                     </p>
-                    <button class=" text-base font-semibold text-white font-epilogue bg-black py-3 px-6 rounded-lg">Documentation</button>
+                    <button class=" hover:scale-110 duration-200 text-base font-semibold text-white font-epilogue bg-black py-3 px-6 rounded-lg">Documentation</button>
                 </div>
             </div>
 
