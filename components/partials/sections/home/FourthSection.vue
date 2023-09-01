@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full flex flex-col items-center space-y-14 px-4 overflow-hidden bg-background  py-24">
+    <div class=" w-full flex flex-col items-center space-y-20 px-4 overflow-hidden bg-background  py-24">
         <div class=" flex flex-col items-center space-y-2">
             <h1 class=" text-black text-center text-2xl md:text-5xl font-semibold font-epilogue">Functions Overview</h1>
             <span class=" text-black text-center font-epilogue font-semibold text-lg md:text-3xl">Event management features with real-life utility</span>
@@ -71,7 +71,7 @@
 
         <div class=" w-full flex pt-5">
             <div class=" m-auto relative">
-                <button   class="text-white relative z-10 font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg h-[3.5rem] text-center bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200">
+                <button   class="text-white relative z-10 font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg pt-[3px] h-[3.5rem] text-center bg-primary font-epilogue hover:bg-purple-900 hover:text-white duration-200">
                                     Discover it yourself!
                  </button>
                  <div class=" absolute -top-9 -left-48">

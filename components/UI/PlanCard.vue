@@ -1,9 +1,10 @@
 <template>
     <div class=" w-full max-w-[23.5rem] px-4 bg-white pb-5 lg:pb-0  space-y-5 h-auto"  
-         :class="{'card-dash-24 mb-2  mt-10 py-8':!item.popular,
+         :class="{'card-dash-24 mb-2   py-8':!item.popular,
          'card-shadow rounded-3xl ':item.popular,
          'lg:h-[49.1875rem]':index == 1,
-         'lg:h-[44.6875rem]':index == 2 || index == 0,
+         'lg:h-[49.1875rem] scale-105':index == 1,
+         'lg:h-[48.6875rem] pt-14 mt-4':index == 2 || index == 0,
          }"
     >
         <div class=" flex flex-col items-center w-full space-y-2">
@@ -25,7 +26,7 @@
 
             </div>
             <h1 class=" text-black font-epilogue text-3xl font-semibold">{{item.title}}</h1>
-            <p class=" text-grayscale text-center text-base font-inter font-normal max-w-[18.5rem]   " :class="{'pb-[3.4rem]':index == 0,'pb-5':index == 1 , 'pb-[5.7rem]':index == 2}">
+            <p class=" text-grayscale text-center text-base font-inter font-normal max-w-[18.5rem] leading-[160%]   " :class="{'pb-[4rem]':index == 0,'pb-5':index == 1 , 'pb-[6.2rem]':index == 2}">
                {{item.description}} 
             </p>
             <svg xmlns="http://www.w3.org/2000/svg" width="296" height="2" viewBox="0 0 296 2" fill="none">
@@ -40,14 +41,14 @@
            
             </div>
             <a target="_blank" :href="monthly ? item.monthly_url : item.yearly_url" class=" w-full">
-                <button   class=" w-full text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg text-center h-[3.5rem] bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200">
+                <button   class=" w-full text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg text-center pt-[3px] h-[3.5rem] bg-primary font-epilogue hover:bg-purple-900 hover:text-white duration-200">
                     Subscribe
                 </button>
             </a>
              
 
              <div class=" w-full flex flex-col items-start space-y-1 pt-6">
-               <div class=" flex items-start space-x-2" v-for="(feature,index,key) in item.features" :key="key">
+               <div class=" flex items-start space-x-4" v-for="(feature,index,key) in item.features" :key="key">
                     <div>
                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="11" cy="11" r="11" fill="#00D5C4" fill-opacity="0.12"/>

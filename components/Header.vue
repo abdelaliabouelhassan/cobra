@@ -7,14 +7,18 @@
 
       <div>
         <button
-          class="text-white hidden md:block font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg h-[2.5rem] text-center bg-primary font-epilogue hover:bg-blue-800  duration-200"
+          class="text-white  hidden md:block font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg h-[2.5rem] pt-[3px] text-center bg-primary font-epilogue hover:bg-purple-900   duration-200"
         >
           Book your Demo
         </button>
       </div>
     </div>
 
-   <Line />
+    <div class=" w-full">
+      <Line />
+    </div>
+
+   
   </div>
 </template>
 

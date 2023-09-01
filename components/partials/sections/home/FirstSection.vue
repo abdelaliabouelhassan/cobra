@@ -13,7 +13,7 @@
        </div>
 
 
-       <div class=" w-full flex flex-col items-center space-y-5 md:space-y-36 max-w-[1206px] mx-auto">
+       <div class=" w-full flex flex-col items-center space-y-5 md:space-y-36 max-w-[1206px] mx-auto  pt-14 pb-14">
             <h1 class=" text-black text-2xl md:text-5xl font-epilogue font-semibold">Are you still planning your events manually?</h1>
 
            <div class=" w-full flex flex-col space-y-8 relative ">

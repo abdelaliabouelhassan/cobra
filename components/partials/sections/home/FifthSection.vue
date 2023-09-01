@@ -1,6 +1,6 @@
 <template>
     <div class=" w-full bg-white py-36 ">
-        <div class=" flex flex-col items-center space-y-8 max-w-[1208px] mx-auto">
+        <div class=" flex flex-col items-center space-y-8 max-w-[80.5rem] p-5 mx-auto pt-20 px-9 pb-10 card-dash-32">
             <div class="  w-full px-4 lg:px-0 max-w-[1132px]  mx-auto flex  md:flex-row flex-col items-center space-y-10 md:space-y-0 md:space-x-28 relative z-10">
                 <div class=" w-full max-w-[27.25rem] max-h-[27.25rem] h-full">
                      <img src="/images/home/fifthsection/extebsiveapi.webp" class=" w-full h-full object-cover" alt="extebsiveapi">
@@ -10,7 +10,7 @@
                     <p class=" font-epilogue text-black font-medium text-base md:text-lg">
                         Cobra Event is developed completely API-first. This gives developers unlimited possibilities: integrate the software, retrieve events for websites for websites, connect mobile apps...
                     </p>
-                    <button class=" hover:scale-110 duration-200 text-base font-semibold text-white font-epilogue bg-black h-[3.5rem] text-center px-6 rounded-lg">Documentation</button>
+                    <button class=" hover:scale-110 duration-200 text-base font-semibold text-white font-epilogue bg-black pt-[3px] h-[3.5rem] text-center px-6 rounded-lg">Documentation</button>
                 </div>
             </div>
 

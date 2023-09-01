@@ -1,6 +1,6 @@
 <template>
-    <div class=" w-full pt-20 overflow-hidden">
-        <div class=" w-full bg-tertiary py-40 ">
+    <div class=" w-full pt-24 overflow-hidden">
+        <div class=" w-full bg-tertiary pb-36 pt-32 ">
         <div class=" relative w-full px-4 max-w-[1208px] mx-auto flex flex-col items-center space-y-14 ">
             <h1 class=" text-black font-epilogue text-2xl md:text-5xl  md:leading-[138%] font-semibold text-center">The modern event solution <br> made in Germany</h1>
             <div class=" w-full grid xl:grid-cols-2 gap-10 relative">

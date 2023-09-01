@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full bg-black  relative py-28 ">
+    <div class=" w-full bg-black  relative pt-28 pb-36">
            <div class=" w-full flex flex-col items-center space-y-10 max-w-[1208px] mx-auto relative z-10 px-4">
                 <h1 class=" text-center font-epilogue text-3xl md:text-5xl font-semibold text-tertiary leading-[138%]">A strong duo: <br> cobra CRM and EVENT</h1>
                 <div class=" max-w-[910px] w-full">

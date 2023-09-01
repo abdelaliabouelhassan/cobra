@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full max-w-[80.5rem] mx-auto py-5 md:py-20 px-4 space-y-28">
+    <div class=" w-full max-w-[80.5rem] mx-auto py-5 md:py-20 px-4  space-y-28">
         <VideoPlayer 
         placeholder="/images/home/secondsection/placeholder1.webp"
         video="http://media.w3.org/2010/05/sintel/trailer.mp4"
@@ -8,12 +8,14 @@
         :dashbed="false"
         />
 
-        <div class=" w-full text-black font-semibold text-5xl font-epilogue text-center space-y-16">
+        <div class=" w-full text-black font-semibold text-5xl font-epilogue text-center space-y-20 pt-14">
             <h1 class=" text-2xl md:text-5xl text-black text-center font-semibold font-epilogue">Throughout the entire event process <br> - full support for you!</h1>
 
             <VideoPlayerGroup>
                 <div class=" w-full pt-8 px-4 space-y-14 ">
-                    <Line />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1207" height="2" viewBox="0 0 1207 2" fill="none">
+                            <path d="M0 1L1207 1" stroke="#CECECE" stroke-dasharray="4 4"/>
+                    </svg>
 
                     <div class=" w-full max-w-[1045.86px] mx-auto flex flex-col md:flex-row space-y-6 md:space-y-0 items-center md:items-start md:justify-between">
                         <div class=" w-full sm:max-w-[27.125rem] sm:h-[13.75rem] relative">
@@ -37,7 +39,7 @@
                         <div class=" w-full max-w-[35rem] flex flex-col items-start space-y-4">
                             <p class=" font-epilogue text-lg font-medium text-black text-start">Book an appointment - often possible already 2 hours after booking. We give you an introduction, afterwards you can test for 10 days free of charge.</p>
                              <button
-                            class="text-white font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg h-[3.5rem] text-center bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200"
+                            class="text-white font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg pt-[3px] h-[3.5rem] text-center bg-primary font-epilogue hover:bg-purple-900 hover:text-white duration-200"
                             >
                             Book your Demo
                             </button>
@@ -51,7 +53,7 @@
       
     </div>
 
-      <div class=" w-full sm:grid-cols-2 grid lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4 max-w-[1527px] mx-auto pb-10">
+      <div class=" w-full sm:grid-cols-2 grid lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4 max-w-[1527px] mx-auto pb-10 pt-24">
             <ReviewCard v-for="(item,index,key) in reviews" :key="key" :logo="item.logo" :text="item.text" :image="item.image" :name="item.name" :job="item.job" />
      </div>
 </template>
