@@ -14,7 +14,7 @@
         </div>
 
        <div class=" w-full h-full pl-5 pb-5" v-else>
-         <video   id='video' class=" w-full h-[25rem] md:h-auto  xl:h-[42.4375rem] rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[3rem] " autoplay muted controls="controls" preload='none'  >
+         <video   id='video' class=" w-full h-[25rem] md:h-auto  xl:h-[42.4375rem]  " autoplay muted controls="controls" preload='none'  >
                 <source id='mp4' :src="video" type='video/mp4' />
                 <p>Your user agent does not support the HTML5 Video element.</p>
         </video>
