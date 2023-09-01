@@ -16,7 +16,7 @@
                     <Line />
 
                     <div class=" w-full max-w-[1045.86px] mx-auto flex flex-col md:flex-row space-y-6 md:space-y-0 items-center md:items-start md:justify-between">
-                        <div class=" w-full max-w-[27.125rem] h-[13.75rem] relative">
+                        <div class=" w-full sm:max-w-[27.125rem] sm:h-[13.75rem] relative">
                             <div class=" absolute -top-28 -right-28">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="603" height="452" viewBox="0 0 603 452" fill="none">
                                 <g opacity="0.45" filter="url(#filter0_f_226_397)">
