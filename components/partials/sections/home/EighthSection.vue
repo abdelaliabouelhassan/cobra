@@ -1,7 +1,7 @@
 <template>
-    <div class=" w-full pt-44 pb-28 bg-white">
+    <div class=" w-full pt-28 md:pt-44 pb-28 bg-white">
         <div class=" w-full max-w-[1208px] mx-auto space-y-8">
-             <div class=" w-full flex flex-col items-center space-y-16 pb-44 relative px-4">
+             <div class=" w-full flex flex-col items-center space-y-16 pb-24 md:pb-44 relative px-4">
              <h1 class="  text-black font-epilogue text-3xl md:text-5xl leading-[138%] font-semibold text-center">Frequently asked questions</h1>
                 
               <div class=" w-full space-y-2 max-w-[73rem] mx-auto ">

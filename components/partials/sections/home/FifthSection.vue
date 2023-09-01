@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full bg-white py-36 ">
+    <div class=" w-full bg-white py-20 md:py-36 px-4 xl:px-0">
         <div class=" flex flex-col items-center space-y-8 max-w-[80.5rem] p-5 mx-auto pt-20 px-9 pb-10 card-dash-32">
             <div class="  w-full px-4 lg:px-0 max-w-[1132px]  mx-auto flex  md:flex-row flex-col items-center space-y-10 md:space-y-0 md:space-x-28 relative z-10">
                 <div class=" w-full max-w-[27.25rem] max-h-[27.25rem] h-full">

@@ -8,7 +8,7 @@
         :dashbed="false"
         />
 
-        <div class=" w-full text-black font-semibold text-5xl font-epilogue text-center space-y-20 pt-14">
+        <div class=" w-full text-black font-semibold text-5xl font-epilogue text-center space-y-20 md:pt-14">
             <h1 class=" text-2xl md:text-5xl text-black text-center font-semibold font-epilogue">Throughout the entire event process <br> - full support for you!</h1>
 
             <VideoPlayerGroup>

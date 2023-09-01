@@ -3,8 +3,8 @@
          :class="{'card-dash-24 mb-2   py-8':!item.popular,
          'card-shadow rounded-3xl ':item.popular,
          'lg:h-[49.1875rem]':index == 1,
-         'lg:h-[49.1875rem] scale-105':index == 1,
-         'lg:h-[48.6875rem] pt-14 mt-4':index == 2 || index == 0,
+         'lg:h-[49.1875rem] lg:scale-105':index == 1,
+         'lg:h-[48.6875rem] pt-14 lg:mt-4':index == 2 || index == 0,
          }"
     >
         <div class=" flex flex-col items-center w-full space-y-2">
@@ -26,7 +26,7 @@
 
             </div>
             <h1 class=" text-black font-epilogue text-3xl font-semibold">{{item.title}}</h1>
-            <p class=" text-grayscale text-center text-base font-inter font-normal max-w-[18.5rem] leading-[160%]   " :class="{'pb-[4rem]':index == 0,'pb-5':index == 1 , 'pb-[6.2rem]':index == 2}">
+            <p class=" text-grayscale text-center text-base font-inter font-normal max-w-[18.5rem] leading-[160%]   " :class="{' pb-[2rem] lg:pb-[4rem]':index == 0,' pb-[2rem] lg:pb-5':index == 1 , 'pb-[2rem] lg:pb-[6.2rem]':index == 2}">
                {{item.description}} 
             </p>
             <svg xmlns="http://www.w3.org/2000/svg" width="296" height="2" viewBox="0 0 296 2" fill="none">
