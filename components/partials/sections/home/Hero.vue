@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full 3xl:h-[75vh] overflow-hidden  flex justify-end  bg-tertiary">
+    <div class=" w-full 3xl:h-[75vh] overflow-hidden  flex 4xl:justify-center justify-end 4xl:pt-72  bg-tertiary">
        
          <div class=" h-full max-w-[87.438rem] 3xl:max-w-[119.063rem] w-full  pt-24 3xl:pt-56 relative ">
             <div class=" flex flex-col md:flex-row md:justify-between items-center   w-full ">
@@ -11,13 +11,13 @@
                     <span class=" font-inter z-10 relative text-xl font-normal text-black">Book you 20 minutes demo and start planning events today.</span>
                     <div class=" w-full pt-5 z-10 relative">
                         <div class=" w-full max-w-[33.875rem] flex bg-white rounded-3xl lg:h-[6.5rem] py-2 px-4">
-                            <div class=" m-auto flex items-center justify-center flex-wrap  lg:flex-nowrap lg:justify-between space-x-4 ">
-                                <button   class="text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg py-2 lg:py-3 bg-primary font-epilogue hover:bg-blue-400 hover:text-white duration-200">
+                            <div class=" m-auto flex items-center justify-center flex-wrap  lg:flex-nowrap lg:justify-between space-y-4 lg:space-y-0 md:w-auto space-x-4 ">
+                                <button   class="text-white w-full font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg text-center h-[3.5rem] bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200">
                                     Book your Demo
                                 </button>
-                                <img src="/images/home/hero/software.svg" alt="software">
-                                <img src="/images/home/hero/dsvgo.svg" alt="dsvgo">
-                                <img src="/images/home/hero/service.svg" alt="service">
+                                <img src="/images/home/hero/software.svg" class=" lg:w-auto w-16" alt="software">
+                                <img src="/images/home/hero/dsvgo.svg" class=" lg:w-auto w-16" alt="dsvgo">
+                                <img src="/images/home/hero/service.svg" class=" lg:w-auto w-16" alt="service">
                             </div>
                         </div>
                     </div>

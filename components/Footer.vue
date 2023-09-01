@@ -21,7 +21,11 @@
             </div>
 
 
-            <div class=" w-full flex sm:flex-row flex-col space-y-4 sm:space-y-0 justify-between items-center  border-t border-dashed border-[#3A3A3A] py-8">
+            <div class=" w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1208" height="2" viewBox="0 0 1208 2" fill="none">
+                   <path d="M0 1H1208" stroke="#3A3A3A" stroke-dasharray="4 4"/>
+                </svg>
+                <div class=" w-full flex sm:flex-row flex-col space-y-4 sm:space-y-0 justify-between items-center  py-8">
                 <p class=" font-inter text-[0.875rem] font-normal text-grayscale">© 2023 Cobra All rights reserved.</p>
                 <div class=" flex items-center space-x-4">
                     <a href="/" class="font-inter text-[0.875rem] font-normal text-grayscale">Privacy</a>
@@ -55,6 +59,7 @@
                     </svg>
                     </a>
                 </div>
+            </div>
             </div>
         </div>
     </footer>

@@ -1,13 +1,13 @@
 <template>
     <div class=" w-full py-28 bg-white">
-        <div class=" w-full max-w-[1208px] mx-auto space-y-7">
-             <div class=" w-full flex flex-col items-center space-y-16 pb-10 relative px-4">
+        <div class=" w-full max-w-[1208px] mx-auto space-y-8">
+             <div class=" w-full flex flex-col items-center space-y-16 pb-44 relative px-4">
              <h1 class="  text-black font-epilogue text-3xl md:text-5xl leading-[138%] font-semibold text-center">Frequently asked questions</h1>
                 
-              <div class=" w-full space-y-3 max-w-[73rem] mx-auto ">
+              <div class=" w-full space-y-2 max-w-[73rem] mx-auto ">
               <div class=" relative z-10">
                   <div v-collapsable    class="w-full collapsable">
-                    <article class=" w-full border border-dashed border-bgray rounded-3xl py-4 px-8">
+                    <article class=" w-full card-dash-24 py-4 px-8">
                         <div class="collapse-btn  w-full flex items-center justify-between ">
                             <h1 class=" text-black font-epilogue text-[1rem] sm:text-[1.375rem] font-semibold">How many events can I publish in parallel?</h1>
                             <button class=" outline-none flex items-center w-fit gap-x-3 py-2.5 mt-2.5">
@@ -34,7 +34,7 @@
 
                <div class=" relative z-10">
                   <div v-collapsable  data-open  class="w-full collapsable">
-                    <article class=" w-full border border-dashed border-bgray rounded-3xl py-4 px-8">
+                    <article class=" w-full card-dash-24 py-4 px-8">
                         <div class="collapse-btn  w-full flex items-center justify-between ">
                             <h1 class=" text-black font-epilogue text-[1rem] sm:text-[1.375rem] font-semibold">What settings can I make?</h1>
                             <button class=" outline-none flex items-center w-fit gap-x-3 py-2.5 mt-2.5">
@@ -60,7 +60,7 @@
 
                 <div class=" relative z-10">
                      <div v-collapsable    class="w-full collapsable">
-                        <article class=" w-full border border-dashed border-bgray rounded-3xl py-4 px-8">
+                        <article class=" w-full card-dash-24 py-4 px-8">
                             <div class="collapse-btn  w-full flex items-center justify-between ">
                                 <h1 class=" text-black font-epilogue text-[1rem] sm:text-[1.375rem] font-semibold">How many events can I publish in parallel?</h1>
                                 <button class=" outline-none flex items-center w-fit gap-x-3 py-2.5 mt-2.5">
@@ -86,7 +86,7 @@
 
                <div class=" relative z-10">
                   <div v-collapsable    class="w-full collapsable">
-                    <article class=" w-full border border-dashed border-bgray rounded-3xl py-4 px-8">
+                    <article class=" w-full card-dash-24 py-4 px-8">
                         <div class="collapse-btn  w-full flex items-center justify-between ">
                             <h1 class=" text-black font-epilogue text-[1rem] sm:text-[1.375rem] font-semibold">What settings can I make?</h1>
                             <button class=" outline-none flex items-center w-fit gap-x-3 py-2.5 mt-2.5">

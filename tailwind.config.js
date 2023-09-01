@@ -24,7 +24,8 @@ module.exports = {
         grayscale:'#646464'
       },
       screens:{
-        '3xl':'2000px'
+        '3xl':'2000px',
+        '4xl':'3000px'
       }
     },
   },

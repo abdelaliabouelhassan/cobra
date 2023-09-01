@@ -1,14 +1,14 @@
 <template>
     <div class=" w-full bg-tertiary backdrop-blur-[66px]  relative flex justify-end pt-10 lg:pt-36 ">
-            <div class="  flex lg:flex-row flex-col lg:justify-between items-end space-y-8 lg:items-start w-full max-w-[1404px] relative z-10 pl-4 2xl:pl-0 space-x-4 lg:space-x-0">
+            <div class="  flex lg:flex-row flex-col lg:justify-between items-end space-y-8 lg:items-start w-full max-w-[1404px] 3xl:max-w-[70vw]  relative z-10 pl-4 2xl:pl-0 space-x-4 lg:space-x-0">
                 <div class=" max-w-[30rem] w-full flex flex-col items-start space-y-4 pt-10">
-                    <h1 class=" text-black font-epilogue text-3xl md:text-5xl font-semibold md:leading-[138%]">Organize  webinars for cobra CRM users in a blink.</h1>
+                    <h1 class=" text-black font-epilogue text-3xl md:text-5xl font-semibold md:leading-[130%]">Organize  webinars for cobra CRM users in a blink.</h1>
                     <p class=" text-black font-inter text-lg font-normal pb-5">
                         Book you 20 minutes demo and
                         <br>
                         start planning events today.
                     </p>
-                     <button   class="text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg py-2 lg:py-3 bg-primary font-epilogue hover:bg-blue-400 hover:text-white duration-200">
+                     <button   class="text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg  h-[3.5rem] text-center bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200">
                                     Book your Demo
                      </button>
                 </div>

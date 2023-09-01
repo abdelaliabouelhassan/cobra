@@ -16,7 +16,7 @@
                     <Line />
 
                     <div class=" w-full max-w-[1045.86px] mx-auto flex flex-col md:flex-row space-y-6 md:space-y-0 items-center md:items-start md:justify-between">
-                        <div class=" w-full max-w-[415px] h-[164px] relative">
+                        <div class=" w-full max-w-[27.125rem] h-[13.75rem] relative">
                             <div class=" absolute -top-28 -right-28">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="603" height="452" viewBox="0 0 603 452" fill="none">
                                 <g opacity="0.45" filter="url(#filter0_f_226_397)">
@@ -37,7 +37,7 @@
                         <div class=" w-full max-w-[35rem] flex flex-col items-start space-y-4">
                             <p class=" font-epilogue text-lg font-medium text-black text-start">Book an appointment - often possible already 2 hours after booking. We give you an introduction, afterwards you can test for 10 days free of charge.</p>
                              <button
-                            class="text-white font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg py-3 bg-primary font-epilogue hover:bg-blue-400 hover:text-white duration-200"
+                            class="text-white font-medium text-sm tracking-[0.0175rem] px-8 rounded-lg h-[3.5rem] text-center bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200"
                             >
                             Book your Demo
                             </button>

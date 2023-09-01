@@ -6,60 +6,60 @@
         </div>
 
         <div class=" w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-[1208px] mx-auto">
-            <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+            <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                 <img src="/images/home/fourthsection/website.png" alt="qr">
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                     Website configurator <br> for multiple event <br> websites
                 </p>
             </div>
-             <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+             <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
               <img src="/images/home/fourthsection/categories.png" alt="qr">
 
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                     Multiple ticket <br> categories per event
                 </p>
             </div>
-             <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+             <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                 <img src="/images/home/fourthsection/payments.png" alt="qr">
 
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                     Ticket payments <br> and invoicing
                 </p>
             </div>
-            <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+            <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                 <img src="/images/home/fourthsection/qr.png" alt="qr">
 
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                     Receipt control <br> via QR code
                 </p>
             </div>
-             <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+             <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                  <img src="/images/home/fourthsection/intuitive.png" alt="qr">
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                    Minimal training  <br> required due to intuitive <br> operation
                 </p>
             </div>
-            <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+            <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                 <img src="/images/home/fourthsection/documents.png" alt="qr">
 
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                    Integrated images <br> and documents <br> for each event
                 </p>
             </div>
-            <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+            <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                 <img src="/images/home/fourthsection/emails.png" alt="qr">
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                     Customizable, <br> automated emails <br> around your event
                 </p>
             </div>
-             <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+             <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                <img src="/images/home/fourthsection/automation.png" alt="qr">
 
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
                     Complete automation <br> from publishing <br> to booking
                 </p>
             </div>
-             <div class=" w-full px-10 py-8 border border-dashed border-bgray rounded-[2rem] space-y-4">
+             <div class=" w-full px-10 py-8 card-dash rounded-[2rem] space-y-4">
                 <img src="/images/home/fourthsection/booking.png" alt="qr">
 
                 <p class=" text-black font-semibold font-epilogue text-[1.375rem]">
@@ -71,7 +71,7 @@
 
         <div class=" w-full flex pt-5">
             <div class=" m-auto relative">
-                <button   class="text-white relative z-10 font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg py-2.5 lg:py-3 bg-primary font-epilogue hover:bg-blue-400 hover:text-white duration-200">
+                <button   class="text-white relative z-10 font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg h-[3.5rem] text-center bg-primary font-epilogue hover:bg-blue-800 hover:text-white duration-200">
                                     Discover it yourself!
                  </button>
                  <div class=" absolute -top-9 -left-48">

@@ -2,7 +2,7 @@
     <div class=" w-full pt-20 overflow-hidden">
         <div class=" w-full bg-tertiary py-40 ">
         <div class=" relative w-full px-4 max-w-[1208px] mx-auto flex flex-col items-center space-y-14 ">
-            <h1 class=" text-black font-epilogue text-2xl md:text-5xl font-semibold text-center">The modern event solution <br> made in Germany</h1>
+            <h1 class=" text-black font-epilogue text-2xl md:text-5xl  md:leading-[138%] font-semibold text-center">The modern event solution <br> made in Germany</h1>
             <div class=" w-full grid xl:grid-cols-2 gap-10 relative">
                 <div class=" w-full bg-white rounded-3xl  px-4 xl:pt-20 xl:pb-10 pb-5 pt-10 relative z-10">
                     <div class=" flex flex-col items-center space-y-5 xl:space-y-16">
@@ -27,8 +27,8 @@
                 </div>
 
                 <div class=" w-full space-y-10 relative z-10">
-                    <div class=" w-full bg-white rounded-3xl flex flex-col items-center md:flex-row md:items-end md:space-x-10 relative overflow-hidden md:h-[281px] py-4 md:py-0">
-                        <img src="/images/home/thirdsection/development.webp" class=" object-cover md:scale-110"  alt="">
+                    <div class=" w-full bg-white rounded-3xl flex flex-col items-center md:flex-row md:items-end md:space-x-10 relative overflow-hidden md:h-[280px] py-4 md:py-0">
+                        <img src="/images/home/thirdsection/development.webp" class=" object-cover"  alt="">
                         <div class=" flex flex-col items-start space-y-1 pb-5 pt-4 md:pt-0">
                             <span class=" text-black font-semibold font-epilogue text-3xl">Development</span>
                             <span class=" text-black font-epilogue text-lg font-medium">made in Germany</span>
