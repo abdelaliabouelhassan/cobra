@@ -117,7 +117,7 @@
               </div>
                 
              </div>
-            <div class=" w-full text-center flex flex-col items-center space-y-4">
+            <div class=" w-full text-center flex flex-col items-center space-y-4 px-4">
                 <span class=" text-black font-epilogue text-3xl md:text-5xl leading-[138%] font-semibold text-center">Our plans - suitable for your needs</span>
                 <span class=" text-black font-epilogue font-medium text-center text-base md:text-lg ">Sign up for annual plan now and get I month free per year!</span>
             </div>

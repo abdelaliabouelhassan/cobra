@@ -1,5 +1,5 @@
 <template>
-    <div :class="{'bg-tertiary':!dashbed}" class=" w-full  p-5 rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[7rem] overflow-hidden">
+    <div @click="play = true;" :class="{'bg-tertiary':!dashbed}" class=" w-full cursor-pointer  p-5 rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[7rem] overflow-hidden">
         <div v-if="!play" class="  w-full h-[25rem] md:h-auto   xl:h-[42.4375rem] rounded-t-[2.5rem] rounded-br-[2.5rem]  rounded-bl-[7rem] relative overflow-hidden  ">
             <img :src="placeholder" class=" w-full h-full object-cover" alt="placeholder">
             <div  class=" absolute w-full h-full  top-0 left-0 p-8">
@@ -14,7 +14,7 @@
         </div>
 
        <div class=" w-full h-full pl-5 pb-5" v-else>
-         <video   id='video' class=" w-full h-[25rem] md:h-auto  xl:h-[42.4375rem]  " autoplay muted controls="controls" preload='none'  >
+         <video   id='video' class=" w-full h-[25rem] md:h-auto  xl:h-[42.4375rem] object-cover lg:object-contain " autoplay muted controls="controls" preload='none'  >
                 <source id='mp4' :src="video" type='video/mp4' />
                 <p>Your user agent does not support the HTML5 Video element.</p>
         </video>
@@ -29,12 +29,17 @@
  const play = ref(false);
 
 
- const stop  = () => {
+ const Stop  = () => {
     play.value = false;
  } 
 
+ const Play = () => {
+    play.value = true;
+ }
+
  defineExpose({
-    stop,
+    Stop,
+    Play
  })
 
  

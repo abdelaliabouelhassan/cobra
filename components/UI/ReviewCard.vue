@@ -1,5 +1,5 @@
 <template>
-    <div class=" relative w-full   max-w-[23.4375rem] card-dash pt-5 pb-28 px-8">
+    <div class=" relative w-full   md:max-w-[23.4375rem] card-dash pt-5 pb-28 px-8">
         <div class=" w-full space-y-8">
             <img :src="logo" alt="" class=" object-cover">
         <p class=" text-black font-inter text-base font-normal">

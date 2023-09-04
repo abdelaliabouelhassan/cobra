@@ -71,7 +71,7 @@
 
         <div class=" w-full flex pt-5">
             <div class=" m-auto relative">
-                <button   class="text-white relative z-10 font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg pt-[3px] h-[3.5rem] text-center bg-primary font-epilogue hover:bg-purple-900 hover:text-white duration-200">
+                <button   class="text-white relative z-10 font-semibold  text-[1rem] tracking-[0.02rem] px-8  rounded-lg pt-[3px] h-[3.5rem] text-center bg-primary font-epilogue hover:bg-[#7244FF] hover:text-white duration-200">
                                     Discover it yourself!
                  </button>
                  <div class=" absolute -top-9 -left-48">

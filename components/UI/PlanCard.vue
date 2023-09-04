@@ -3,8 +3,10 @@
          :class="{'card-dash-24 mb-2   py-8':!item.popular,
          'card-shadow rounded-3xl ':item.popular,
          'lg:h-[49.1875rem]':index == 1,
+         'lg:!mt-[8px] pt-[3.3rem]':index == 2,
+         'pt-14 lg:mt-4':index == 0,
          'lg:h-[49.1875rem] lg:scale-105':index == 1,
-         'lg:h-[48.6875rem] pt-14 lg:mt-4':index == 2 || index == 0,
+         'lg:h-[48.6875rem] ':index == 2 || index == 0,
          }"
     >
         <div class=" flex flex-col items-center w-full space-y-2">
@@ -49,8 +51,8 @@
 
              <div class=" w-full flex flex-col items-start space-y-1 pt-6">
                <div class=" flex items-start space-x-4" v-for="(feature,index,key) in item.features" :key="key">
-                    <div>
-                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class=" pt-1">
+                     <svg width="18" height="18" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="11" cy="11" r="11" fill="#00D5C4" fill-opacity="0.12"/>
                         <path d="M5.375 11.5625L9.875 16.0625L16.625 5.9375" stroke="#00D5C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>

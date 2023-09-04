@@ -1,10 +1,10 @@
 <template>
     <div class=" w-full flex flex-col items-center space-y-5 md:space-y-16 px-4">
             <div class=" w-full bg-white rounded-[0.9375rem] card-shadow p-2 max-w-[23.1875rem] grid grid-cols-2 gap-2">
-                <button @click="select(0)" :class="{'bg-black text-white':selected === 0,'bg-white text-black':selected !=0}" class=" duration-200 text-center w-full text-base font-epilogue  font-semibold h-12 rounded-lg  ">
+                <button @click="select(0)" :class="{'bg-black text-white':selected === 0,'bg-white text-black':selected !=0}" class=" duration-200 text-center w-full text-base font-epilogue hover:bg-black hover:text-white  font-semibold h-12 rounded-lg  ">
                     Monthly
                 </button>
-                 <button @click="select(1)" :class="{'bg-black text-white':selected === 1,'bg-white text-black':selected !=1}"  class=" duration-200 text-center w-full text-base font-epilogue  font-semibold h-12 rounded-lg  ">
+                 <button @click="select(1)" :class="{'bg-black text-white':selected === 1,'bg-white text-black':selected !=1}"  class=" duration-200 text-center w-full text-base font-epilogue hover:bg-black hover:text-white font-semibold h-12 rounded-lg  ">
                     Annually
                 </button>
             </div>
@@ -15,7 +15,7 @@
 
 
             <div>
-                <p class=" text-[#A9A9A9] text-center font-inter text-sm font-normal">
+                <p class=" text-[#00D5C4] text-center font-inter text-sm font-normal">
                     * Online Payments invoke 4% fees based on the net ticket price by cobra and additional fees based on Stripe as a payment provider
                     <br>
                     ** Online Payments invoke 5% fees based on the net ticket price by cobra and additional fees based on Stripe as a payment provider

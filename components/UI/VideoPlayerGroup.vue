@@ -70,9 +70,12 @@
 
 
  const select = (item) => {
-    VideoPlayerRef.value.stop();
+    VideoPlayerRef.value.Stop();
     item.completed = true;
     selectedItem.value = item
+    setTimeout(() => {
+        VideoPlayerRef.value.Play();
+    },300)
  }
 
  onMounted(() => {
