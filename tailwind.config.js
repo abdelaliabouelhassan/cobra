@@ -24,6 +24,7 @@ module.exports = {
         grayscale:'#646464'
       },
       screens:{
+        '3-5xl':'1601px',
         '3xl':'2000px',
         '4xl':'3000px'
       }
