@@ -43,7 +43,7 @@
            
             </div>
             <a target="_blank" :href="monthly ? item.monthly_url : item.yearly_url" class=" w-full">
-                <button   class=" w-full text-white font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg text-center pt-[3px] h-[3.5rem] bg-primary font-epilogue hover:bg-purple-900 hover:text-white duration-200">
+                <button   class=" w-full text-white font-semibold   text-[1rem] tracking-[0.02rem]  px-4 lg:px-8 rounded-lg text-center pt-[3px] h-[3.5rem] bg-primary font-epilogue hover:bg-purple-900 hover:text-white duration-200">
                     Subscribe
                 </button>
             </a>

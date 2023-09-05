@@ -12,7 +12,7 @@
                     <div class=" w-full pt-5 z-10 relative">
                         <div class=" w-full max-w-[33.875rem] flex bg-white rounded-3xl h-auto lg:h-[6.5rem] py-4 lg:py-2 px-4">
                             <div class=" m-auto flex items-center justify-center flex-wrap  lg:flex-nowrap lg:justify-between space-y-4 lg:space-y-0 md:w-auto space-x-4 ">
-                                <button   class="text-white w-full font-semibold text-[0.8rem] lg:text-[1rem] lg:tracking-[0.02rem] px-4 lg:px-8 rounded-lg text-center pt-[3px] h-[3.5rem] bg-primary font-epilogue hover:bg-[#7244FF] hover:text-white duration-200">
+                                <button   class="text-white w-full font-semibold text-[1rem] tracking-[0.02rem] px-4 lg:px-8 rounded-lg text-center pt-[3px] h-[3.5rem] bg-primary font-epilogue hover:bg-[#7244FF] hover:text-white duration-200">
                                     Book your Demo
                                 </button>
                                 <img src="/images/home/hero/SHG.png" class=" lg:w-auto w-16" alt="software">
